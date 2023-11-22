@@ -11,7 +11,7 @@ export default function Home() {
           <code className="font-mono font-bold">pages/index.js</code>
         </p>
 
-        <h1> Ir a <a href='/about'>About</a></h1>
+        <h1> Ir a <a href='/'>Home</a></h1>
 
       </div>
     </main>
