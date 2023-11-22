@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +12,10 @@ export default function Home() {
           <code className="font-mono font-bold">pages/index.js</code>
         </p>
 
-        <h1> Ir a <a href='/'>Home</a></h1>
+        {/* <h1> Ir a <a href='/'>Home</a></h1> */}
+        <h1>
+          Ir a: <Link href='/'>Home</Link>
+        </h1>
 
       </div>
     </main>
