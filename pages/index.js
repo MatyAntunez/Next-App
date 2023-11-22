@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 
@@ -14,8 +15,11 @@ export default function Home() {
 
         <h1>
           {/* Ir a <a href='/about'>About</a> */}
-         Ir a: <Link href='/about'>About</Link>
+         {/* Ir a: <Link href='/about'>About</Link> */}
+         HOME PAGE
         </h1>
+
+        <Navbar/>
 
 
       </div>
